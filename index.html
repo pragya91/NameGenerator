@@ -7,11 +7,12 @@
   <link rel="stylesheet" type="text/css" href="styles.css" ></link>
 </head>
 <body>
-    <div id="container">
-        <div class="row"><button class="col" onclick="getAdjectiveNoun()">Adjective-Noun</button><span className="col" id="adjNoun"></span></div>
-        <div class="row"><button class="col" onclick="getNounAdjective()">Noun-Adjective</button><span className="col" id="nounAdj"></span></div>
-        <div class="row"><button class="col" onclick="getAdjective()">Adjective</button><span className="col" id="adjective"></span></div>
-        <div class="row"><button class="col" onclick="getNoun()">Noun</button><span className="col" id="noun"></span></div>
+    <div class="container">
+        <h1>Random name generator</h1>
+        <div class="row"><button class="col" onclick="getAdjectiveNoun()">Adjective-Noun</button><div class="col word" id="adjNoun">Click to generate a new combo</div></div>
+        <div class="row"><button class="col" onclick="getNounAdjective()">Noun-Adjective</button><div class="col word" id="nounAdj">Click to generate a new combo</div></div>
+        <div class="row"><button class="col" onclick="getAdjective()">Adjective</button><div class="col word" id="adjective">Click to get an adjective</div></div>
+        <div class="row"><button class="col" onclick="getNoun()">Noun</button><div class="col word" id="noun">Click to get a noun</div></div>
     </div>
 </body>
 </html>
